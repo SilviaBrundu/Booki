@@ -156,12 +156,6 @@ nav ul {
     margin-bottom: 5px;
 }
 
-.more {
-    font-size: 16px;
-    ;
-}
-
-
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -210,7 +204,7 @@ nav ul {
 /* activités*/
 
 .activités {
-    padding: 30px;
+    padding: 30px 30px 60px 30px;
 
 }
 
@@ -232,6 +226,30 @@ nav ul {
 .activités-cards .card-title{
     padding-left: 15px;
 }
+
+/*Footer*/
+
+footer {
+    background-color: #F2F2F2;
+}
+
+.contenu-footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.contenu-list-footer {
+    width: 90%;
+}
+
+.contenu-footer h3,
+.contenu-footer ul {
+    padding-left: 20px
+
+
+}
+
+
 
 
 
