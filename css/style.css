@@ -91,6 +91,7 @@ nav ul {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    margin: 30px 0;
 }
 
 .hebergements-and-populaires section {
@@ -116,7 +117,7 @@ nav ul {
 .hebergements-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
-    gap: 33px;
+    gap: 20px;
     
 }
 
@@ -204,6 +205,32 @@ nav ul {
 
 .populaires-cards .card-rating {
     margin-bottom: 5px;
+}
+
+/* activités*/
+
+.activités {
+    padding: 30px;
+
+}
+
+.activités-cards{
+
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    margin-top: 33px;
+}
+
+.activités-cards img {
+    width: 298px;
+    height: 380px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activités-cards .card-title{
+    padding-left: 15px;
 }
 
 
