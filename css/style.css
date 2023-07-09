@@ -44,7 +44,6 @@ nav li {
   
 nav li:hover {
     border-top: solid 2px #0065FC;
-    height: 100px;
 }
   
 nav li:hover a {
