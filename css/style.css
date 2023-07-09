@@ -23,7 +23,6 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-   
 }
 
 .logo img {
@@ -49,7 +48,7 @@ nav ul {
   }
   
   nav li:hover a {
-      color: #0065FC
+      color: #0065FC;
   }
   
   .menu a {
@@ -60,6 +59,7 @@ nav ul {
       text-decoration: none;
       color: black;
     }
+
 .main-container {
     width: 100%;
     max-width: 1440px;
@@ -87,6 +87,15 @@ nav ul {
     font-size: 16px;
 }
 
+/****** Info **********/
+.info p {
+    margin: 5px 0 0 0;
+}
+
+.info h2 {
+    margin-bottom: 0;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -106,7 +115,7 @@ nav ul {
 }
 
 .neutral-star {
-    color: var(--main-bg-color)
+    color: var(--main-bg-color);
 }
 
 /****** Hebergements ***********/
@@ -116,9 +125,8 @@ nav ul {
 
 .hebergements-cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-    
 }
 
 
@@ -201,15 +209,14 @@ nav ul {
     margin-bottom: 5px;
 }
 
-/* activités*/
+/****** Activités *********/
 
 .activités {
     padding: 30px 30px 60px 30px;
 
 }
 
-.activités-cards{
-
+.activités-cards {
     display: flex;
     flex-direction: row;
     gap: 17px;
@@ -223,11 +230,11 @@ nav ul {
     border-top-right-radius: 20px;
 }
 
-.activités-cards .card-title{
+.activités-cards .card-title {
     padding-left: 15px;
 }
 
-/*Footer*/
+/****** Footer **********/
 
 footer {
     background-color: #F2F2F2;
@@ -244,9 +251,7 @@ footer {
 
 .contenu-footer h3,
 .contenu-footer ul {
-    padding-left: 20px
-
-
+    padding-left: 20px;
 }
 
 
