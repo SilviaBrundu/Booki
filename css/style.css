@@ -171,7 +171,11 @@ form .form-text {
     flex-direction: Row;
     border: solid 2px #D9D9D9;
     border-radius: 55px;
-    padding-right: 15px;
+    padding-right: 20px;
+}
+
+.contenu-filtres h3 {
+    margin: 15px 0;
 }
 
 .contenu-filtres:hover {
