@@ -383,13 +383,6 @@ footer {
     padding-left: 20px;
 }
 
-
-
-
-
-
-/* Le code ci-dessous correspond à la version responsive uniquement */
-
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
@@ -446,5 +439,119 @@ footer {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li:hover {
+        border-top: none;
+        margin-top:0;
+        border-bottom: solid 2px #0065FC;
+        margin-bottom: -2px;
+    }
+
+    .main-container {
+        padding: 0;
+    }
+
+    nav li {
+        margin:0;
+        padding: 0;
+
+    }
+
+    .info {
+        padding: 0 20px;
+    }
+
+    .info2 .logo-info2{
+        margin: 9px;
+    }
+
+    .filtres {
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .section-title {
+        margin-bottom: 20px;
+    }
+
+    .populaires-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    .populaires-cards .card {
+        width: 100%;
+        margin: 0;
+    }
+
+    .populaires {
+        margin: 0;
+    }
+
+    .populaires-title {
+        align-items: normal;
+    }
+
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+    }
+
+    .hebergements-and-populaires .populaires {
+        border-radius:0;
+        padding: 40px 20px 20px 20px;
+    }
+
+    .hebergements-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    .hebergements-cards .card {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hebergements-cards img {
+        width: 100%;
+    }
+
+    .hebergements-and-populaires .hebergements {
+        background-color: white;
+        padding: 40px 20px 20px 20px;
+    }
+
+    .activités-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .activités-cards .card{
+        width: 100%;
+    }
+
+    .activités-cards .card-title{
+        padding: 15px;
+        margin: 0;
+    }
+
+    .activités-cards img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .contenu-footer {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+    }
 }
