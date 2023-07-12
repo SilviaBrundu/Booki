@@ -118,7 +118,7 @@ a {
     display: flex;
     flex-direction: row;
     height: 49px;
-    margin: 30px 0;
+    margin: 45px 0;
 }
 
 form {
@@ -222,13 +222,14 @@ form .form-text {
     display: flex;
     flex-direction: row;
     margin-top: 30px;
+    align-items: center;
 }
 
 .logo-info2 {
-    border: solid 2px #D9D9D9;
+    border: solid 1px #D9D9D9;
     border-radius: 50%;
     color: #0065fc;
-    margin: 0 20px 0 0;
+    margin: 0 10px 0 0;
     width: 24px;
     height: 24px;
     display:flex;
