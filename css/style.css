@@ -441,11 +441,13 @@ footer {
     .populaires-cards {
         display: flex;
         flex-direction: row;
-        gap: 27px;
+        gap: 18px;
     }
 
     .populaires-cards .card {
         margin: 0;
+        width: 100%;
+        max-width: 266px;
     }
 
     .populaires-cards .card-title {
