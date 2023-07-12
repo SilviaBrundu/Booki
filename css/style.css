@@ -237,6 +237,7 @@ form .form-text {
 }
 
 /****** Hebergements And Populaires ***********/
+
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -266,7 +267,7 @@ form .form-text {
 .hebergements-cards {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 30px;
     margin-top: 33px;
 }
 
@@ -277,7 +278,8 @@ form .form-text {
 }
 
 .hebergements-cards img {
-    width: 243px;
+    max-width: 100%;
+    width: 256px;
     height: 124px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -311,6 +313,7 @@ form .form-text {
 }
 
 /****** Populaires ***********/
+
 .populaires {
     width: 32%;
 }
@@ -365,11 +368,12 @@ form .form-text {
 .activités-cards {
     display: flex;
     flex-direction: row;
-    gap: 17px;
+    gap: 25px;
     margin-top: 33px;
 }
 
 .activités-cards img {
+    max-width: 100%;
     width: 298px;
     height: 380px;
     border-top-left-radius: 20px;
@@ -386,7 +390,6 @@ form .form-text {
 }
 
 /****** Footer **********/
-
 footer {
     background-color: #F2F2F2;
 }
@@ -410,7 +413,9 @@ footer {
    }
 
 /****** Media queries ***********/
+
 /* Medium devices (tablets, less/equal than 1024px) */
+
 @media (max-width: 1024px) {
     .hebergements-and-populaires {
         flex-direction: column;
@@ -418,6 +423,10 @@ footer {
 
     .hebergements {
         width: 100%;
+    }
+
+    .hebergements-cards {
+        gap: 32px;
     }
 
     .populaires {
@@ -432,11 +441,10 @@ footer {
     .populaires-cards {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        gap: 27px;
     }
 
     .populaires-cards .card {
-        width: 260px;
         margin: 0;
     }
 
@@ -461,13 +469,13 @@ footer {
     }
 
     .activités-cards img {
-        width: 198px;
+        width: 222px;
         height: 200px;
     }
 
     .activités-cards .card {
         height: 100%;
-        width: 198px;
+        width: 100%;
     }
 
     .activités-cards .card-title {
@@ -477,6 +485,7 @@ footer {
 }
 
 /* Small devices (phones, less than 768px) */
+
 @media (max-width: 767.98px) {
     header {
         display: flex;
