@@ -405,6 +405,10 @@ footer {
     padding-left: 20px;
 }
 
+.contenu-list-footer li {
+    line-height: 35px;   
+   }
+
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
@@ -453,7 +457,7 @@ footer {
     }
 
     .activités-cards {
-        justify-content: space-between;
+        padding: 0 30px;
     }
 
     .activités-cards img {
